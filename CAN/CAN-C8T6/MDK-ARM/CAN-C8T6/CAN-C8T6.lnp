@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"can-c8t6\startup_stm32f103xb.o"
+"can-c8t6\dht11.o"
+"can-c8t6\main.o"
+"can-c8t6\gpio.o"
+"can-c8t6\can.o"
+"can-c8t6\tim.o"
+"can-c8t6\stm32f1xx_it.o"
+"can-c8t6\stm32f1xx_hal_msp.o"
+"can-c8t6\stm32f1xx_hal_gpio_ex.o"
+"can-c8t6\stm32f1xx_hal_can.o"
+"can-c8t6\stm32f1xx_hal.o"
+"can-c8t6\stm32f1xx_hal_rcc.o"
+"can-c8t6\stm32f1xx_hal_rcc_ex.o"
+"can-c8t6\stm32f1xx_hal_gpio.o"
+"can-c8t6\stm32f1xx_hal_dma.o"
+"can-c8t6\stm32f1xx_hal_cortex.o"
+"can-c8t6\stm32f1xx_hal_pwr.o"
+"can-c8t6\stm32f1xx_hal_flash.o"
+"can-c8t6\stm32f1xx_hal_flash_ex.o"
+"can-c8t6\stm32f1xx_hal_exti.o"
+"can-c8t6\stm32f1xx_hal_tim.o"
+"can-c8t6\stm32f1xx_hal_tim_ex.o"
+"can-c8t6\system_stm32f1xx.o"
+--strict --scatter "CAN-C8T6\CAN-C8T6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CAN-C8T6.map" -o CAN-C8T6\CAN-C8T6.axf

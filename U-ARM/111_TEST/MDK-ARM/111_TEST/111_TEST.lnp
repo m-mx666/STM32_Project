@@ -1,0 +1,28 @@
+--cpu Cortex-M0+
+"111_test\startup_stm32g031xx.o"
+"111_test\main.o"
+"111_test\gpio.o"
+"111_test\dma.o"
+"111_test\usart.o"
+"111_test\stm32g0xx_it.o"
+"111_test\stm32g0xx_hal_msp.o"
+"111_test\stm32g0xx_hal_uart.o"
+"111_test\stm32g0xx_hal_uart_ex.o"
+"111_test\stm32g0xx_hal_rcc.o"
+"111_test\stm32g0xx_hal_rcc_ex.o"
+"111_test\stm32g0xx_ll_rcc.o"
+"111_test\stm32g0xx_hal_flash.o"
+"111_test\stm32g0xx_hal_flash_ex.o"
+"111_test\stm32g0xx_hal_gpio.o"
+"111_test\stm32g0xx_hal_dma.o"
+"111_test\stm32g0xx_hal_dma_ex.o"
+"111_test\stm32g0xx_hal_pwr.o"
+"111_test\stm32g0xx_hal_pwr_ex.o"
+"111_test\stm32g0xx_hal_cortex.o"
+"111_test\stm32g0xx_hal.o"
+"111_test\stm32g0xx_hal_exti.o"
+"111_test\system_stm32g0xx.o"
+--library_type=microlib --strict --scatter "111_TEST\111_TEST.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "111_TEST.map" -o 111_TEST\111_TEST.axf
