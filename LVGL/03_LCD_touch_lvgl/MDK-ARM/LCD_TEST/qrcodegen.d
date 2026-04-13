@@ -1,0 +1,15 @@
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\qrcodegen.c
+lcd_test\qrcodegen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+lcd_test\qrcodegen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+lcd_test\qrcodegen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\qrcodegen.h
+lcd_test\qrcodegen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+lcd_test\qrcodegen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+lcd_test\qrcodegen.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\../../../misc/lv_assert.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_internal.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_kconfig.h
+lcd_test\qrcodegen.o: ../midware/lvgl/examples/porting/../../lv_conf.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\../../../misc/lv_log.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\../../../misc/lv_types.h
+lcd_test\qrcodegen.o: ..\midware\lvgl\src\extra\libs\qrcode\../../../misc/lv_mem.h

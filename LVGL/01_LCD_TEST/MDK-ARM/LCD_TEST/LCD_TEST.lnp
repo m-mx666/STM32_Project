@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"lcd_test\startup_stm32f103xe.o"
+"lcd_test\main.o"
+"lcd_test\gpio.o"
+"lcd_test\spi.o"
+"lcd_test\stm32f1xx_it.o"
+"lcd_test\stm32f1xx_hal_msp.o"
+"lcd_test\stm32f1xx_hal_gpio_ex.o"
+"lcd_test\stm32f1xx_hal_spi.o"
+"lcd_test\stm32f1xx_hal.o"
+"lcd_test\stm32f1xx_hal_rcc.o"
+"lcd_test\stm32f1xx_hal_rcc_ex.o"
+"lcd_test\stm32f1xx_hal_gpio.o"
+"lcd_test\stm32f1xx_hal_dma.o"
+"lcd_test\stm32f1xx_hal_cortex.o"
+"lcd_test\stm32f1xx_hal_pwr.o"
+"lcd_test\stm32f1xx_hal_flash.o"
+"lcd_test\stm32f1xx_hal_flash_ex.o"
+"lcd_test\stm32f1xx_hal_exti.o"
+"lcd_test\system_stm32f1xx.o"
+"lcd_test\lcd.o"
+"lcd_test\lcd_init.o"
+"lcd_test\touch.o"
+--strict --scatter "LCD_TEST\LCD_TEST.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LCD_TEST.map" -o LCD_TEST\LCD_TEST.axf

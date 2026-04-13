@@ -1,0 +1,16 @@
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\lv_font.c
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\lv_font.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../lv_conf_internal.h
+lcd_test\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../lv_conf_kconfig.h
+lcd_test\lv_font.o: ../midware/lvgl/examples/porting/../../lv_conf.h
+lcd_test\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+lcd_test\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\lv_symbol_def.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../misc/lv_area.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../misc/lv_utils.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../misc/lv_log.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../misc/lv_types.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../misc/lv_assert.h
+lcd_test\lv_font.o: ..\midware\lvgl\src\font\../misc/lv_mem.h
+lcd_test\lv_font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

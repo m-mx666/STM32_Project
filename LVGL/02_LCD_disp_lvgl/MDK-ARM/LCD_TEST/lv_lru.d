@@ -1,0 +1,13 @@
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_lru.c
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_lru.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\../lv_conf_internal.h
+lcd_test\lv_lru.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\../lv_conf_kconfig.h
+lcd_test\lv_lru.o: ../midware/lvgl/examples/porting/../../lv_conf.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_types.h
+lcd_test\lv_lru.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_math.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_mem.h
+lcd_test\lv_lru.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_assert.h
+lcd_test\lv_lru.o: ..\midware\lvgl\src\misc\lv_log.h
